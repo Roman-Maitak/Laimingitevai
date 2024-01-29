@@ -1,0 +1,18 @@
+[
+    {
+        "type": "Group",
+        "name": "laming",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "mkaDjMJtlzhOCFn3"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/haloperidol/vs/Laimingitevai/Laimingitevai_landing/src",
+        "parent_id": null,
+        "workspaceRoot": "/Users/haloperidol/vs/Laimingitevai/Laimingitevai_landing",
+        "workspacePath": "src",
+        "id": "NPvJ7MIj5go2Xd1u"
+    }
+]
