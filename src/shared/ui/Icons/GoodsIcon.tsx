@@ -1,5 +1,3 @@
-import React from "react";
-
 export const GoodsIcon = ({ color = "black" }) => (
   <svg
     fill={color}
