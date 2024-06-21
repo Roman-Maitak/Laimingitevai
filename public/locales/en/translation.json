@@ -1,0 +1,82 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Our Services",
+    "eu_delivery": "Eu cars delivery",
+    "about": "About Us"
+  },
+  "hero": {
+    "title": "Laimingi Tevai",
+    "description": "Logistic solutions for Europe, Asia, USA and CIS countries."
+  },
+  "toast": {
+    "pending": "Sending message...",
+    "success": "Message sent successfuly",
+    "error": "Ops. Something gone terribly wrong"
+  },
+  "contactForm": {
+    "emailLabel": "Your Email",
+    "subjectLabel": "Select a subject",
+    "subject": {
+      "subject1": "International Cargo Transportation",
+      "subject2": "Car Delivery",
+      "subject3": "Other"
+    },
+    "messageLabel": "Message",
+    "submit": "Send"
+  },
+  "contactUs": {
+    "header": "Contact Us",
+    "welcome": "On this page you can find all the available ways to contact us! \nWe will be waiting for your questions and requests!"
+  },
+  "validationMessage": {
+    "email": {
+      "validationError": "Email format is not valid",
+      "requiredError": "Email is requiered"
+    },
+    "subject": {
+      "requiredError": "Subject is requiered"
+    },
+    "message": {
+      "requiredError": "Message is requiered"
+    }
+  },
+  "greeting": "Hello world",
+  "buttons": {
+    "form": "CONTACT FORM"
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "International Freight Forwarding",
+      "description": "Looking for reliable international freight forwarding? We offer fast and secure movement of your cargo worldwide. Extensive experience, verified routes, transparent rates. We await your inquiries.",
+      "img": "",
+      "icon": "TRUCK",
+      "image": "/services/truck.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Car Delivery from Europe and America 'Turnkey'",
+      "description": "Comprehensive car delivery from Europe and the USA. Car procurement, history check, transportation, customs clearance. Full transaction support. Guarantee of legality and safety!",
+      "img": "",
+      "icon": "CAR",
+      "image": "/services/car_delivery.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Intermediary Services in Procurement of Goods",
+      "description": "We provide intermediary services in the procurement of goods. We work with suppliers in Europe, America, and Asia. Assistance in document processing. We await your requests!",
+      "img": "",
+      "icon": "GOODS",
+      "image": "/services/goods_delivery.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mediation in Money Transfers to the EU and China",
+      "description": "Your bank does not process payment for goods or services? Your partner's bank does not accept payment? We'll take it! We provide mediation services in money transfers from Russia to Europe and China. Safety guarantees, low commissions, fast fund allocation.",
+      "img": "",
+      "icon": "TRANSFER",
+      "image": "/services/money_transfer.jpg"
+    }
+  ]
+}

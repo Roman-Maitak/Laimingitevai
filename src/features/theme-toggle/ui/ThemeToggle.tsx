@@ -1,4 +1,3 @@
-import React from "react";
 import { Theme } from "../model/types";
 import { useTheme } from "../model/themeContext";
 import IconButton from "../../../shared/ui/IconButton";
@@ -17,22 +16,9 @@ const ThemeToggle = ({ className = "" }: { className?: string }) => {
   return (
     <IconButton onClick={toggleTheme} className={className}>
       {/* <div > */}
-      {theme === Theme.DARK ? <MoonIcon /> : <SunIcon />}
+      {theme === Theme.DARK ? <MoonIcon color="#ffffff" /> : <SunIcon />}
       {/* </div> */}
     </IconButton>
-
-    // <button
-    //   className={`font-popins font-normal cursor-pointer text-[16px] ml-5 text-white`}
-    //   onClick={toggleTheme}
-    // >
-    //   <div className={`w-[28px] h-[28px] `}>
-    //     {/* {theme === Theme.DARK ? (
-    //       <img src={moon} alt={theme} />
-    //     ) : (
-    //       <img src={sun} alt={theme} />
-    //     )} */}
-    //   </div>
-    // </button>
   );
 };
 

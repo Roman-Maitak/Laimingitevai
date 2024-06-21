@@ -1,44 +1,41 @@
-import styles from "../style";
-import {
-  Billing,
-  Buisness,
-  CTA,
-  CardDeal,
-  Clients,
-  Footer,
-  Hero,
-  Navbar,
-  Stats,
-  Testimonials,
-} from "../components";
+// import styles from "../style";
+
+import { Footer } from "../widgets/footer/Footer";
+import LandingPage from "../pages/LandingPage/LandingPage";
+import { Route, Routes } from "react-router-dom";
+import ContactPage from "../pages/Contact/ContactPage";
+import Navbar from "../widgets/nav-bar/Navbar";
+import { useTheme } from "../features/theme-toggle/model/themeContext";
+import { useEffect } from "react";
+import { Theme } from "../features/theme-toggle/model/types";
 
 const App = () => {
+  const [theme] = useTheme();
+
+  useEffect(() => {
+    if (theme === Theme.DARK) {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      document.documentElement.removeAttribute("data-theme");
+    }
+  }, [theme]);
+
   return (
-    <div className={`w-full`}>
+    <div
+      className={
+        "w-full h-screen snap-y snap-mandatory overflow-y-scroll bg-background"
+      }
+    >
       <header className="">
         <Navbar />
       </header>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
 
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
-
-      {/* <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} text-white`}> */}
-      <Billing />
-      <Stats />
-      <Buisness />
-      <Billing />
-      <CardDeal />
-      <Testimonials />
-      <Clients />
-      <CTA />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
       <Footer />
     </div>
-    //   </div>
-    // </div>
   );
 };
 

@@ -1,13 +1,19 @@
 import { eng, ru } from "../../assets";
 
-export const lang = [
+export type Language = {
+  code: string;
+  title: string;
+  img: string;
+};
+
+export const languages: Language[] = [
   {
-    id: "en",
+    code: "en",
     title: "English",
     img: eng,
   },
   {
-    id: "ru",
+    code: "ru",
     title: "Русский",
     img: ru,
   },

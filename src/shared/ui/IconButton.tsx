@@ -1,5 +1,5 @@
 import React from "react";
-
+import { cn } from "../utils";
 type IconButtonProps = {
   children: React.ReactNode;
   onClick: () => void;
@@ -14,7 +14,7 @@ const IconButton = ({
 }: IconButtonProps) => {
   return (
     <button
-      className={`w-[28px] h-[28px] cursor-pointer ${className}`}
+      className={cn(`w-[28px] h-[28px] cursor-pointer`, className)}
       onClick={onClick}
       {...props}
     >

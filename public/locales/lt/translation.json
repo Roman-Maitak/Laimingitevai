@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "home": "Pagrindinis",
+    "services": "Mūsų Paslaugos",
+    "eu_delivery": "Automobilių pristatymas iš ES",
+    "about": "Apie Mus"
+  },
+  "hero": {
+    "title": "Laimingi Tėvai",
+    "description": "Logistikos sprendimai Europai, Azijai, JAV ir NVS šalims."
+  },
+  "greeting": "Sveikas, bičiuli",
+  "buttons": {
+    "form": "KONTAKTŲ FORMA"
+  }
+}
